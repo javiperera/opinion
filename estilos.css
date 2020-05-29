@@ -155,8 +155,7 @@ h2{
     margin: 5px 0 0 10px;
 }
 .enlaceDocumento:hover{
-    color: blue;
-    font-size: 30px;
+    color: blue;   
 }
 .video{
     width: 900px;
@@ -270,6 +269,7 @@ ul li:hover{
 .barraLateral.active {
 	left: 0;
   }
+ 
 @media screen and (max-width:560px){    
     body{       
         width: 320px;                            
