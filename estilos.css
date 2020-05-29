@@ -1,0 +1,456 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* gris  999999 777777  555555  333333
+         negro 111111 */        
+mark{
+    padding: 2px 3px 2px 3px;
+}
+.enlaceBarra{
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: right;
+}
+.enlaceBarra:hover{
+    font-size: 25px;
+    color: blue;
+}
+.enlaceOriginal{
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-right: 30px;
+}
+.enlaceOriginal:hover{
+font-size: 30px;
+color: blue;
+}
+body{
+    background-color: #111111;
+    width: 960px;
+    margin: auto;
+    color: white;
+    font-family:sans-serif;   
+}
+header{
+    z-index: 1;    
+    position: fixed;  
+    background-color:#999999;
+    height: 240px; 
+    font-size: 40px;
+    text-align: center;   
+}
+.header2{  
+    position: fixed;  
+    background-color:#999999;
+    height: 80px; 
+    font-size: 40px;
+    text-align: center;    
+}
+.fotoCabecera{
+    width: 960px; 
+    height: 130px;;
+}
+h1{
+    margin: 0 0 20px 0;
+    font-size: 25px;
+}
+.h12{
+    margin: 20px 0 20px 0;
+    width: 960px;
+    font-size: 25px;
+}
+nav{
+    background-color: #555555;
+    height: 42px;    
+    text-align: center; 
+}
+.nav2{
+    background-color: #555555;
+    height: 42px;    
+    text-align: center;
+    width: 960px; 
+}
+.iconoVideo,.iconoFoto,.iconoPdf,.iconoInicio,.iconoDiario,.iconoPais,.iconoVanguardia,.iconoPublico{
+    width: 60px; 
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 20px 0 20px;
+    padding: 2px;
+}
+.iconoVideo:hover, .iconoFoto:hover, .iconoPdf:hover, .iconoInicio:hover,.iconoDiario:hover, .iconoPais:hover, .iconoVanguardia:hover, .iconoPublico:hover {
+    width: 100px; 
+    height: 60px;    
+}
+main{
+    background-color: #777777;
+    padding: 250px 0 0 30px;  
+}
+.main2{
+    background-color: #777777;
+    padding: 122px 0 0 30px;  
+}
+h2{
+    font-size: 20px;
+    background-color: #333333;
+    width: 880px;
+    height: 50px;
+    padding: 10px;  
+}
+.enlaceDocumento{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    margin: 5px 0 0 10px;
+}
+.enlaceDocumento:hover{
+    color: blue;
+    font-size: 30px;
+}
+.video{
+    width: 900px;
+    padding-bottom: 10px;
+}
+.video2{
+    width: 900px;
+    padding-bottom: 10px;
+    height: 430px;
+}
+.fotoAutor{
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    margin-right: 5px;
+}
+
+.documento{
+    width: 900px;
+    height: 500px;
+    padding-bottom: 10px;  
+}
+.documento2{
+    width: 900px;
+    height: 500px;
+    padding-bottom: 10px;
+}
+.foto{
+    width: 900px;
+    height: 300px;
+    padding-bottom: 10px;
+}
+.foto2{
+    width: 900px;
+    height: 430px;
+    padding-bottom: 10px;
+}
+footer{
+    clear: both;
+    background-color:#333333;   
+    height: 20px;
+    color: yellow;
+    text-align: center;
+    padding: 10px;
+}
+
+/*barra lateral*/
+
+#sidebar {
+    position: fixed;
+    z-index: 3;
+	width: 200px;
+	height: 100%;
+	background-color: #777777;
+	left: -240px;
+	transition: 500ms; 
+	padding: 20px;   
+    cursor: pointer;
+  }
+#sidebar.active {
+	left: 0;
+  }
+  
+ul li {
+	padding: 0;
+	margin-bottom: 10px;
+	color: white;
+	text-align: left;
+	list-style: none;
+	width: 100%;	
+    font-size: 20px;    
+    padding-bottom: 5px;
+  }
+ul li:hover{
+    color: blue;
+    font-size: 30px;
+  }  
+.logo {
+	border-radius: 50%;
+	display: block;
+    width: 90%;
+    margin-bottom: 30px;
+  }  
+.boton {
+	position: absolute;
+	left: 240px;
+	cursor: pointer;
+	background-color: #f6f786;
+    color: #111111;  
+	width: 40px;
+	text-align: center;
+	font-size: 20px;
+    padding: 10px 0 10px 0;
+    border-radius: 50%;  
+  }
+.tituloBarraLateral {
+	text-align: right;
+	font-size: 30px;
+	color: #f6f786;
+  } 
+.barraLateral { 
+    z-index: 2;
+	position: fixed;
+	width: 500px;	
+	background-color: #999999;
+	left: -520px;
+	transition: 500ms;
+	margin-top:  200px;   
+    padding: 10px;
+  }
+.barraLateral.active {
+	left: 0;
+  }
+@media screen and (max-width:560px){    
+    body{       
+        width: 320px;                            
+    }
+    header{         
+        position: fixed;
+        text-align: center;
+        width: auto;
+        height: 110px;                  
+    }
+    .header2{  
+        position: fixed;        
+        text-align: center;        
+        width: 320px;
+        height: 40px;    
+    }
+    .fotoCabecera{
+        width: 320px;
+        height: 40px;  
+   }
+    h1{
+        font-size: 10px;
+        height: 15;      
+        margin: 7px;          
+    }
+    .h12{             
+        font-size: 50px;
+        height: 40px;
+        padding-top: 10px;       
+    }
+    nav{
+        background-color: #555555;
+        height: 40px;    
+        text-align: center;        
+    }
+    .nav2{
+        background-color: #555555;
+        height: 40px;    
+        text-align: center;
+        width: 320px;      
+    }
+    .iconoVideo,.iconoFoto,.iconoPdf,.iconoInicio,.iconoDiario,.iconoPais,.iconoVanguardia,.iconoPublico{
+        width: 25px;
+        height: 20px;
+        background-color: white;
+        border-radius: 50%;       
+        padding: 2px;
+        margin: 0 0 0 0;       
+    }
+    .iconoVideo:hover, .iconoFoto:hover, .iconoPdf:hover, .iconoInicio:hover,.iconoDiario:hover, .iconoPais:hover, .iconoVanguardia:hover, .iconoPublico:hover {
+        width: 50px; height: 40px;
+        
+    }
+    main{
+        background-color: #777777;
+        padding: 115px 0 0 10px;          
+    }
+    .main2{
+        background-color: #777777;
+        padding: 70px 0 0 10px;
+        margin  
+    }
+    .fotoAutor{
+        width: 30px;
+        height: 30px;   
+    }
+    h2{
+        font-size: 10px;
+        background-color: #333333;
+        width: 280px;
+        height: 30px;
+
+    }
+    .enlaceOriginal{
+        font-size: 10px;        
+    }   
+    .video{
+        width: 300px;
+        padding-bottom: 10px;
+        height: auto;
+    }
+    .video2{
+        width: 300px;
+        padding-bottom: 10px;
+        height: auto;
+    }
+    .documento{
+        width: 300px;       
+        padding-bottom: 10px;
+        height: 500;
+    }
+    .documento2{
+        width: 300px;       
+        padding-bottom: 10px;
+        height: 500px;
+    }    
+    .foto{
+        width: 300px;      
+        padding-bottom: 10px;
+        height: auto;
+    }
+    .foto2{
+        width: 300px;       
+        padding-bottom: 10px;
+        height: auto;
+    }
+    footer{
+        font-size: 10px;
+        height: 10px;
+    }
+    
+    /*barra lateral*/
+    
+    #sidebar {
+        position: fixed;
+        z-index: 3;
+        width: 60px;
+        height: 100%;
+        background-color: #777777;
+        left: -100px;
+        transition: 500ms; 
+        cursor: pointer;
+      }
+    #sidebar.active {
+        left: 0;
+      }
+      
+    ul li {      
+        color: white;
+        text-align: left;
+        list-style: none;
+        width: 100%;	
+        font-size: 10px;    
+        padding-bottom: 10px;
+      }
+    ul li:hover{
+        font-size: 30px;
+        color: blue;
+    }    
+      
+    .boton {
+        position: absolute;
+        left: 100px;
+        cursor: pointer;
+        background-color: #f6f786;
+        color: #111111;  
+        width: 40px;
+        text-align: center;
+        font-size: 20px;
+        padding: 10px 0 10px 0;
+        border-radius: 50%;  
+      } 
+    .tituloBarraLateral {
+        text-align: right;
+        font-size: 10px;
+        color: #f6f786;
+        margin-bottom: 10px;
+      }
+    .barraLateral { 
+        z-index: 2;  
+        position: fixed;
+        width: 230px;	
+        background-color: #999999;
+        left: -250px;
+        transition: 500ms;
+        margin-top: 110px;
+        padding-left:  10px;
+      }   
+    .barraLateral.active {
+        left: 0;
+    }
+    .enlaceBarra{
+        display: block;
+        text-decoration: none;
+        margin-top: 10px;
+        font-size: 10px;
+        color: white;
+        text-align: right;
+    }
+    .enlaceBarra:hover{
+        font-size: 25px;
+        color: blue;   
+}
+}    
