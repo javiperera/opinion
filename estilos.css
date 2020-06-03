@@ -142,11 +142,11 @@ main{
     padding: 122px 0 0 30px;  
 }
 h2{
-    font-size: 20px;
+    font-size: 15px;
     background-color: #333333;
     width: 880px;
-    height: 50px;
-    padding: 10px;  
+    height: 55px;
+    padding: 5px;  
 }
 .enlaceDocumento{
     color: white;
@@ -464,7 +464,7 @@ ul li:hover{
   height: 30px;   
 }
   h2{
-  font-size: 10px;
+  font-size: 8px;
   background-color: #333333;
   width: 280px;
   height: 30px;
@@ -561,12 +561,16 @@ ul li:hover{
 }
   .enlaceBarra{
   font-size: 10px;
+  color: white;
 }
   .tituloBarraLateral {
 	text-align: right;
 	font-size: 15px;
 	color: #f6f786;
   } 
+  .iconoVideo:hover, .iconoFoto:hover, .iconoPdf:hover, .iconoInicio:hover,.iconoDiario:hover, .iconoPais:hover, .iconoVanguardia:hover, .iconoPublico:hover {
+  width: 25px; height: 20px;        
+}
   #sidebar2 { 
   z-index: 2;
 	position: fixed;
