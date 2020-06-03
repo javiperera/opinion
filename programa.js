@@ -3,7 +3,6 @@ const boton = document.querySelector(".boton");
 boton.addEventListener("click", function(){
 document.getElementById("sidebar").classList.toggle("active");
 })
-
 const comercio = document.querySelector(".comercio");
 
 comercio.addEventListener("click", function(){
@@ -56,4 +55,3 @@ const sostenibilidad = document.querySelector(".sostenibilidad");
 sostenibilidad.addEventListener("click", function(){
 document.getElementById("sidebar10").classList.toggle("active");
 })
-
