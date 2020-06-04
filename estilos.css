@@ -523,6 +523,11 @@ article{
   padding-bottom: 10px;
   height: auto;
 }
+#disqus_thread{
+  background-color: #999999;
+  border: 0px 2px 2px 2px solid blue;
+  padding: 5px;
+}
   
 /*barra lateral*/
     
