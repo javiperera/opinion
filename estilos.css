@@ -48,176 +48,186 @@ table {
 }
 
 /* gris  999999 777777  555555  333333
-         negro 111111 */        
+negro 111111 */        
 mark{
-    padding: 2px 3px 2px 3px;
+  padding: 2px 3px 2px 3px;
 }
 .enlaceBarra{
-    display: block;
-    text-decoration: none;
-    margin-top: 10px;
-    font-size: 20px;
-    color: white;
-    text-align: right;
+  display: block;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+  text-align: right;
 }
 .enlaceBarra:hover{
-    font-size: 25px;
-    color: blue;
+  font-size: 25px;
+  color: blue;
 }
 .enlaceOriginal{
-    float: right;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    padding-right: 30px;
+  float: right;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding-right: 30px;
 }
 .enlaceOriginal:hover{
-font-size: 30px;
-color: blue;
+  font-size: 30px;
+  color: blue;
 }
 body{
-    background-color: #111111;
-    width: 960px;
-    margin: auto;
-    color: white;
-    font-family:sans-serif;   
+  background-color: #111111;
+  width: 960px;
+  margin: auto;
+  color: white;
+  font-family:sans-serif;   
 }
 header{
-    z-index: 1;    
-    position: fixed;  
-    background-color:#999999;
-    height: 240px; 
-    font-size: 40px;
-    text-align: center;   
+  z-index: 1;    
+  position: fixed;  
+  background-color:#999999;
+  height: 240px; 
+  font-size: 40px;
+  text-align: center;   
 }
 .header2{  
-    position: fixed;  
-    background-color:#999999;
-    height: 80px; 
-    font-size: 40px;
-    text-align: center;    
+  position: fixed;  
+  background-color:#999999;
+  height: 80px; 
+  font-size: 40px;
+  text-align: center;    
 }
 .fotoCabecera{
-    width: 960px; 
-    height: 130px;;
+  width: 960px; 
+  height: 130px;;
 }
 h1{
-    margin: 0 0 20px 0;
-    font-size: 25px;
+  margin: 0 0 20px 0;
+  font-size: 25px;
 }
 .h12{
-    margin: 20px 0 20px 0;
-    width: 960px;
-    font-size: 25px;
+  margin: 20px 0 20px 0;
+  width: 960px;
+  font-size: 25px;
 }
 nav{
-    background-color: #555555;
-    height: 42px;    
-    text-align: center; 
+  background-color: #555555;
+  height: 42px;    
+  text-align: center; 
 }
 .nav2{
-    background-color: #555555;
-    height: 42px;    
-    text-align: center;
-    width: 960px; 
+  background-color: #555555;
+  height: 42px;    
+  text-align: center;
+  width: 960px; 
 }
 .iconoVideo,.iconoFoto,.iconoPdf,.iconoInicio,.iconoDiario,.iconoPais,.iconoVanguardia,.iconoPublico{
-    width: 60px; 
-    height: 40px;
-    background-color: white;
-    border-radius: 50%;
-    margin: 0 20px 0 20px;
-    padding: 2px;
+  width: 60px; 
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 20px 0 20px;
+  padding: 2px;
 }
 .iconoVideo:hover, .iconoFoto:hover, .iconoPdf:hover, .iconoInicio:hover,.iconoDiario:hover, .iconoPais:hover, .iconoVanguardia:hover, .iconoPublico:hover {
-    width: 100px; 
-    height: 60px;    
+  width: 100px; 
+  height: 60px;    
 }
 main{
-    background-color: #777777;
-    padding: 250px 0 0 30px;  
+  background-color: #777777;
+  padding: 250px 0 0 30px;  
 }
 .main2{
-    background-color: #777777;
-    padding: 122px 0 0 30px;  
+  background-color: #777777;
+  padding: 122px 0 0 30px;  
+}
+article{
+  border: 2px solid blue;
+  margin-bottom: 5px;
+  width: 900px;
+}
+#disqus_thread{
+  background-color: #333333;
+  border: 0px 2px 2px 2px solid blue;
+  padding: 5px;
 }
 h2{
-    font-size: 15px;
-    background-color: #333333;
-    width: 890px;
-    height: 55px;
-    padding: 5px;  
+  font-size: 15px;
+  background-color: #333333;
+  width: 890px;
+  height: 55px;
+  padding: 5px;  
 }
 .enlaceDocumento{
-    color: white;
-    text-decoration: none;
-    position: absolute;
-    margin: 5px 0 0 10px;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  margin: 5px 0 0 10px;
 }
 .enlaceDocumento:hover{
-    color: blue;   
+  color: blue;   
 }
 .video{
-    width: 900px;
-    padding-bottom: 10px;
+  width: 900px;
+  padding-bottom: 10px;
 }
 .video2{
-    width: 900px;
-    padding-bottom: 10px;
-    height: 430px;
+  width: 900px;
+  padding-bottom: 10px;
+  height: 430px;
 }
 .fotoAutor{
-    width: 50px;
-    height: 50px;
-    border-radius: 10%;
-    margin-right: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  margin-right: 5px;
 }
 
 .documento{
-    width: 900px;
-    height: 500px;
-    padding-bottom: 10px;  
+  width: 900px;
+  height: 500px;
+  padding-bottom: 10px;  
 }
 .documento2{
-    width: 900px;
-    height: 500px;
-    padding-bottom: 10px;
+  width: 900px;
+  height: 500px;
+  padding-bottom: 10px;
 }
 .foto{
-    width: 900px;
-    height: 300px;
-    padding-bottom: 10px;
+  width: 900px;
+  height: 300px;
+  padding-bottom: 10px;
 }
 .foto2{
-    width: 900px;
-    height: 430px;
-    padding-bottom: 10px;
+  width: 900px;
+  height: 430px;
+  padding-bottom: 10px;
 }
 footer{
-    clear: both;
-    background-color:#333333;   
-    height: 20px;
-    color: yellow;
-    text-align: center;
-    padding: 10px;
+  clear: both;
+  background-color:#333333;   
+  height: 20px;
+  color: yellow;
+  text-align: center;
+  padding: 10px;
 }
 
 /*barra lateral*/
 
 #sidebar {
-    position: fixed;
-    z-index: 3;
+  position: fixed;
+  z-index: 3;
 	width: 200px;
 	height: 100%;
 	background-color: #777777;
 	left: -240px;
 	transition: 500ms; 
 	padding: 20px;   
-    cursor: pointer;
-  }
+  cursor: pointer;
+}
 #sidebar.active {
 	left: 0;
-  }
+}
   
 ul li {
 	padding: 0;
@@ -226,36 +236,36 @@ ul li {
 	text-align: left;
 	list-style: none;
 	width: 100%;	
-    font-size: 20px;    
-    padding-bottom: 5px;
-  }
+  font-size: 20px;    
+  padding-bottom: 5px;
+}
 ul li:hover{
-    color: blue;
-    font-size: 30px;
-  }  
+  color: blue;
+  font-size: 30px;
+}  
 .logo {
 	border-radius: 50%;
 	display: block;
-    width: 90%;
-    margin-bottom: 30px;
-  }  
+  width: 90%;
+  margin-bottom: 30px;
+}  
 .boton {
 	position: absolute;
 	left: 240px;
 	cursor: pointer;
 	background-color: #f6f786;
-    color: #111111;  
+  color: #111111;  
 	width: 40px;
 	text-align: center;
 	font-size: 20px;
-    padding: 10px 0 10px 0;
-    border-radius: 50%;  
-  }
+  padding: 10px 0 10px 0;
+  border-radius: 50%;  
+}
 .tituloBarraLateral {
 	text-align: right;
 	font-size: 30px;
 	color: #f6f786;
-  } 
+} 
 #sidebar2 { 
   z-index: 2;
 	position: fixed;
@@ -265,11 +275,11 @@ ul li:hover{
 	transition: 500ms;
 	margin-top: 400px;   
   padding: 10px;
-  }
-  #sidebar2.active{
+}
+#sidebar2.active{
 	left: 0;
-  }  
-  #sidebar3 { 
+}  
+#sidebar3 { 
   z-index: 2;
 	position: fixed;
 	width: 530px;	
@@ -278,14 +288,14 @@ ul li:hover{
 	transition: 500ms;
 	margin-top: 350px;   
   padding: 10px;
-  }
-  #sidebar3.active{
+}
+#sidebar3.active{
 	left: 0;
-  }
-  #sidebar3.active2{
+}
+#sidebar3.active2{
 	left: -520px;
-  }
-  #sidebar4 { 
+}
+#sidebar4 { 
   z-index: 2;
 	position: fixed;
 	width: 560px;	
@@ -294,14 +304,14 @@ ul li:hover{
 	transition: 500ms;
 	margin-top:  300px;   
   padding: 10px;
-  }
-  #sidebar4.active{
+}
+ #sidebar4.active{
 	left: 0;
-  }
-  #sidebar4.active2{
+}
+#sidebar4.active2{
 	left: -520px;
-  }
-  #sidebar5 { 
+}
+#sidebar5 { 
   z-index: 2;
 	position: fixed;
 	width: 590px;	
@@ -310,14 +320,14 @@ ul li:hover{
 	transition: 500ms;
 	margin-top:  250px;   
   padding: 10px;
-  }
-  #sidebar5.active{
+}
+#sidebar5.active{
 	left: 0;
-  }
-  #sidebar5.active2{
+}
+#sidebar5.active2{
 	left: -520px;
-  }
-  #sidebar6 { 
+}
+#sidebar6 { 
   z-index: 2;
 	position: fixed;
 	width: 620px;	
@@ -326,14 +336,14 @@ ul li:hover{
 	transition: 500ms;
 	margin-top:  200px;   
   padding: 10px;
-  }
-  #sidebar6.active{
+}
+#sidebar6.active{
 	left: 0;
-  }
-  #sidebar6.active2{
+}
+ #sidebar6.active2{
 	left: -520px;
-  }
-  #sidebar7 { 
+}
+#sidebar7 { 
   z-index: 2;
 	position: fixed;
 	width: 650px;	
@@ -342,14 +352,14 @@ ul li:hover{
 	transition: 500ms;
 	margin-top:  150px;   
   padding: 10px;
-  }
-  #sidebar7.active{
+}
+#sidebar7.active{
 	left: 0;
-  }
-  #sidebar7.active2{
+}
+#sidebar7.active2{
 	left: -520px;
-  }
-  #sidebar8 { 
+}
+#sidebar8 { 
   z-index: 2;
 	position: fixed;
 	width: 680px;	
@@ -358,14 +368,14 @@ ul li:hover{
 	transition: 500ms;
 	margin-top:  100px;   
   padding: 10px;
-  }
-  #sidebar8.active{
+}
+#sidebar8.active{
 	left: 0;
-  }
-  #sidebar8.active2{
+}
+#sidebar8.active2{
 	left: -520px;
-  }
-  #sidebar9 { 
+}
+#sidebar9 { 
   z-index: 2;
 	position: fixed;
 	width: 710px;	
@@ -374,14 +384,14 @@ ul li:hover{
 	transition: 500ms;
 	margin-top:  50px;   
   padding: 10px;
-  }
-  #sidebar9.active{
+}
+#sidebar9.active{
 	left: 0;
-  }
-  #sidebar9.active2{
+}
+#sidebar9.active2{
 	left: -520px;
-  }
-  #sidebar10 { 
+}
+#sidebar10 { 
   z-index: 2;
 	position: fixed;
 	width: 740px;	
@@ -390,56 +400,56 @@ ul li:hover{
 	transition: 500ms;
 	margin-top: 0;   
   padding: 10px;
-  }
-  #sidebar10.active{
+}
+#sidebar10.active{
 	left: 0;
-  }
-  #sidebar10.active2{
+}
+#sidebar10.active2{
 	left: -520px;
-  }
+} 
  
-@media (max-width:560px){    
-  body{       
+@media only screen and (max-width:560px){    
+body{       
   width: 320px;                            
 }
-  header{         
+header{         
   position: fixed;
   text-align: center;
   width: auto;
   height: 110px;                  
 }
-  .header2{  
+.header2{  
   position: fixed;        
   text-align: center;        
   width: 320px;
   height: 40px;    
 }
-  .fotoCabecera{
+.fotoCabecera{
   width: 320px;
   height: 40px;  
 }
-  h1{
+h1{
   font-size: 10px;
   height: 15;      
   margin: 7px;          
 }
-  .h12{             
+.h12{             
   font-size: 50px;
   height: 40px;
   padding-top: 10px;       
 }
-  nav{
+nav{
   background-color: #555555;
   height: 40px;    
   text-align: center;        
 }
-  .nav2{
+.nav2{
   background-color: #555555;
   height: 40px;    
   text-align: center;
   width: 320px;      
 }
-  .iconoVideo,.iconoFoto,.iconoPdf,.iconoInicio,.iconoDiario,.iconoPais,.iconoVanguardia,.iconoPublico{
+.iconoVideo,.iconoFoto,.iconoPdf,.iconoInicio,.iconoDiario,.iconoPais,.iconoVanguardia,.iconoPublico{
   width: 25px;
   height: 20px;
   background-color: white;
@@ -447,69 +457,74 @@ ul li:hover{
   padding: 2px;
   margin: 0 0 0 0;       
 }
-  .iconoVideo:hover, .iconoFoto:hover, .iconoPdf:hover, .iconoInicio:hover,.iconoDiario:hover, .iconoPais:hover, .iconoVanguardia:hover, .iconoPublico:hover {
+.iconoVideo:hover, .iconoFoto:hover, .iconoPdf:hover, .iconoInicio:hover,.iconoDiario:hover, .iconoPais:hover, .iconoVanguardia:hover, .iconoPublico:hover {
   width: 50px; height: 40px;        
 }
-  main{
+main{
   background-color: #777777;
-  padding: 115px 0 0 10px;          
+  padding: 115px 0 0 0px;          
 }
-  .main2{
+.main2{
   background-color: #777777;
-  padding: 70px 0 0 10px;
-  margin  
+  padding: 70px 0 0 0px; 
 }
-  .fotoAutor{
+.fotoAutor{
   width: 30px;
   height: 30px;   
 }
-  h2{
+article{
+  border: 2px solid blue;
+  margin-bottom: 5px;
+  width: 315px;
+}
+#disqus_thread{
+  background-color: #333333;
+  border: 0px 2px 2px 2px solid blue;
+  padding: 5px;
+}
+h2{
   font-size: 8px;
   background-color: #333333;
-  width: 290px;
+  width: 305px;
   height: 30px;
 }
-  .enlaceOriginal{
+.enlaceOriginal{
   font-size: 10px;        
 }   
-  .video{
-  width: 300px;
+.video{
+  width: 315px;
   padding-bottom: 10px;
   height: auto;
 }
-  .video2{
-  width: 300px;
+.video2{
+  width: 315px;
   padding-bottom: 10px;
   height: auto;
 }
-  .documento{
-  width: 300px;       
+.documento{
+  width: 315px;       
   padding-bottom: 10px;
   height: 500;
 }
-  .documento2{
-  width: 300px;       
+.documento2{
+  width: 315px;       
   padding-bottom: 10px;
   height: 500px;
 }    
-  .foto{
-  width: 300px;      
+.foto{
+  width: 315px;      
   padding-bottom: 10px;
   height: auto;
 }
-  .foto2{
-  width: 300px;       
+.foto2{
+  width: 315px;       
   padding-bottom: 10px;
   height: auto;
 }
-  footer{
-  font-size: 10px;
-  height: 10px;
-}
-    
+  
 /*barra lateral*/
     
-  #sidebar {
+#sidebar {
   position: fixed;
   z-index: 3;
   width: 60px;
@@ -521,11 +536,11 @@ ul li:hover{
   text-align: left;
   padding: 10px;
 }
-  #sidebar.active {
+#sidebar.active {
   left: 0;
 }
       
-  ul li {      
+ul li {      
   color: white;
   text-align: left;
   list-style: none;
@@ -533,11 +548,11 @@ ul li:hover{
   font-size: 10px;    
   padding-bottom: 10px;
 }
-  ul li:hover{
+ul li:hover{
   font-size: 10px;
   color: white;        
 }        
-  .boton {
+.boton {
   position: absolute;
   left: 80px;
   cursor: pointer;
@@ -549,29 +564,33 @@ ul li:hover{
   padding: 10px 0 10px 0;
   border-radius: 50%;  
 } 
-  .tituloBarraLateral {
+.tituloBarraLateral {
   text-align: right;
   font-size: 10px;
   color: #f6f786;
   margin-bottom: 10px;
 }
 
-  .enlaceDocumento:hover{
+.enlaceDocumento:hover{
   color:white;   
 }
-  .enlaceBarra{
+.enlaceBarra{
   font-size: 10px;
   color: white;
 }
-  .tituloBarraLateral {
+.enlaceBarra:hover{
+  font-size: 10px;
+  color: white;
+}
+.tituloBarraLateral {
 	text-align: right;
 	font-size: 15px;
 	color: #f6f786;
   } 
-  .iconoVideo:hover, .iconoFoto:hover, .iconoPdf:hover, .iconoInicio:hover,.iconoDiario:hover, .iconoPais:hover, .iconoVanguardia:hover, .iconoPublico:hover {
+.iconoVideo:hover, .iconoFoto:hover, .iconoPdf:hover, .iconoInicio:hover,.iconoDiario:hover, .iconoPais:hover, .iconoVanguardia:hover, .iconoPublico:hover {
   width: 25px; height: 20px;        
 }
-  #sidebar2 { 
+#sidebar2 { 
   z-index: 2;
 	position: fixed;
 	width: 190px;	
@@ -581,11 +600,11 @@ ul li:hover{
 	margin-top: 400px;   
   padding: 10px;
   font-size: 10px;
-  }
-  #sidebar2.active{
+}
+#sidebar2.active{
 	left: 0;
-  }  
-  #sidebar3 { 
+}  
+#sidebar3 { 
   z-index: 2;
 	position: fixed;
 	width: 200px;	
@@ -594,14 +613,14 @@ ul li:hover{
 	transition: 500ms;
 	margin-top: 350px;   
   padding: 10px;
-  }
-  #sidebar3.active{
+}
+#sidebar3.active{
 	left: 0;
-  }
-  #sidebar3.active2{
+}
+#sidebar3.active2{
 	left: -520px;
-  }
-  #sidebar4 { 
+}
+#sidebar4 { 
   z-index: 2;
 	position: fixed;
 	width: 210px;	
@@ -610,14 +629,14 @@ ul li:hover{
 	transition: 500ms;
 	margin-top:  300px;   
   padding: 10px;
-  }
-  #sidebar4.active{
+}
+#sidebar4.active{
 	left: 0;
-  }
-  #sidebar4.active2{
+}
+#sidebar4.active2{
 	left: -520px;
-  }
-  #sidebar5 { 
+}
+#sidebar5 { 
   z-index: 2;
 	position: fixed;
 	width: 220px;	
@@ -626,14 +645,14 @@ ul li:hover{
 	transition: 500ms;
 	margin-top:  250px;   
   padding: 10px;
-  }
-  #sidebar5.active{
+}
+#sidebar5.active{
 	left: 0;
-  }
-  #sidebar5.active2{
+}
+#sidebar5.active2{
 	left: -520px;
-  }
-  #sidebar6 { 
+}
+#sidebar6 { 
   z-index: 2;
 	position: fixed;
 	width: 230px;	
@@ -642,14 +661,14 @@ ul li:hover{
 	transition: 500ms;
 	margin-top:  200px;   
   padding: 10px;
-  }
-  #sidebar6.active{
+}
+#sidebar6.active{
 	left: 0;
-  }
-  #sidebar6.active2{
+}
+#sidebar6.active2{
 	left: -520px;
-  }
-  #sidebar7 { 
+}
+#sidebar7 { 
   z-index: 2;
 	position: fixed;
 	width: 240px;	
@@ -658,14 +677,14 @@ ul li:hover{
 	transition: 500ms;
 	margin-top:  150px;   
   padding: 10px;
-  }
-  #sidebar7.active{
+}
+#sidebar7.active{
 	left: 0;
-  }
-  #sidebar7.active2{
+}
+#sidebar7.active2{
 	left: -520px;
-  }
-  #sidebar8 { 
+}
+#sidebar8 { 
   z-index: 2;
 	position: fixed;
 	width: 250px;	
@@ -674,14 +693,14 @@ ul li:hover{
 	transition: 500ms;
 	margin-top:  100px;   
   padding: 10px;
-  }
-  #sidebar8.active{
+}
+#sidebar8.active{
 	left: 0;
-  }
-  #sidebar8.active2{
+}
+#sidebar8.active2{
 	left: -520px;
-  }
-  #sidebar9 { 
+}
+#sidebar9 { 
   z-index: 2;
 	position: fixed;
 	width: 260px;	
@@ -690,14 +709,14 @@ ul li:hover{
 	transition: 500ms;
 	margin-top:  50px;   
   padding: 10px;
-  }
-  #sidebar9.active{
+}
+#sidebar9.active{
 	left: 0;
-  }
-  #sidebar9.active2{
+}
+#sidebar9.active2{
 	left: -520px;
-  }
-  #sidebar10 { 
+}
+#sidebar10 { 
   z-index: 2;
 	position: fixed;
 	width: 270px;	
@@ -706,10 +725,10 @@ ul li:hover{
 	transition: 500ms;
 	margin-top: 0;   
   padding: 10px;
-  }
-  #sidebar10.active{
+}
+#sidebar10.active{
 	left: 0;
-  }
-  #sidebar10.active2{
+}
+#sidebar10.active2{
 	left: -520px;
-  }   
+}   
