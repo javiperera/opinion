@@ -311,7 +311,14 @@ ul li:hover{
 }
 
  
-@media only screen and (max-width:600px){  
+@media screen (max-width:600px){
+    /*body cuerpo de la página*/
+body{
+  background-color: #111111;
+  width: 600px;
+  margin: auto;  
+  font-family:sans-serif;   
+}
   /*header el cabezal de la pagina*/
   header{   
     position: fixed;
