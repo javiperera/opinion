@@ -40,7 +40,8 @@
 		width: 20px;
 		height: 20px;		
 		border-radius: 50%;
-		border: 2px solid yellowgreen;		
+		border: 2px solid yellowgreen;
+		margin-right: 5%;		
 	}	
 	.menu{
 		width: 100%;
@@ -55,7 +56,7 @@
 	}
 	main{
 		width: 100%;
-		padding-top: 30%;						
+		padding-top: 20%;						
 	}
 	article{
 		width: 100%;
@@ -68,7 +69,7 @@
 		margin: 2% 3% 0% 2%		
 	}
 	.enlaceDocumento{
-		font-size: 50%;
+		font-size: 60%;
 		font-weight: lighter;
 		text-decoration: none;
 		color: #111111;
@@ -103,7 +104,7 @@
 	font-size: 13px;  
 	border-radius: 50%;
 	border: 2px solid yellowgreen;
-	margin-top: 50%;
+	margin-top: 49%;
   }  
   .logo {
 	border-radius: 50%;
@@ -118,12 +119,12 @@
 	text-align: center;
 	list-style: none;
 	width: 100%;	
-	font-size: 55%;	
+	font-size: 65%;	
   }  
   /*sidebar barra lateral segunda*/ 
   .tituloBarraLateral {
 	text-align: right;
-	font-size: 55%;
+	font-size: 65%;
 	color: #f6f786;	
   } 
   .enlaceBarra{
