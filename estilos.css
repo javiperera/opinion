@@ -41,7 +41,7 @@
 		height: 20px;		
 		border-radius: 50%;
 		border: 2px solid yellowgreen;
-		margin-right: 10%;		
+		margin-right: 8%;		
 	}	
 	.menu{
 		width: 100%;
@@ -82,7 +82,7 @@
   #sidebar {
 	position: fixed;
 	z-index: 3;
-	width: 20%;
+	width: 25%;
 	height: 100%;
 	background-color: #6fcb9f;
 	left: -20%;
@@ -138,9 +138,9 @@
   #sidebar2 { 
 	z-index: 2;
 	position: fixed;
-	width: 43%;	
+	width: 48%;	
 	background-color: #52bf90;
-	left: -55%;
+	left: -60%;
 	transition: 500ms;
 	margin-top: 40%;   
 	padding: 2% 2% 5% 0%;
@@ -152,9 +152,9 @@
   #sidebar3 { 
 	z-index: 2;
 	position: fixed;
-	width: 46%;	
+	width: 51%;	
 	background-color: #49ab81;
-	left: -58%;
+	left: -63%;
 	transition: 500ms;
 	margin-top: 35%;   
 	padding: 2% 2% 5% 0%;
@@ -166,9 +166,9 @@
   #sidebar4 { 
 	z-index: 2;
 	position: fixed;
-	width: 49%;	
+	width: 54%;	
 	background-color: #419873;
-	left: -61%;
+	left: -66%;
 	transition: 500ms;
 	margin-top: 30%;   
 	padding: 2% 2% 5% 0%;
@@ -180,9 +180,9 @@
   #sidebar5 { 
 	z-index: 2;
 	position: fixed;
-	width: 52%;	
+	width: 57%;	
 	background-color: #398564;
-	left: -64%;
+	left: -69%;
 	transition: 500ms;
 	margin-top:  25%;   
 	padding: 2% 2% 5% 0%;
@@ -194,9 +194,9 @@
   #sidebar6 { 
 	z-index: 2;
 	position: fixed;
-	width: 55%;	
+	width: 60%;	
 	background-color: #317256;
-	left: -67%;
+	left: -72%;
 	transition: 500ms;
 	margin-top: 20%;   
 	padding: 2% 2% 5% 0%;
@@ -208,9 +208,9 @@
   #sidebar7 { 
 	z-index: 2;
 	position: fixed;
-	width: 58%;	
+	width: 63%;	
 	background-color: #77ab59;
-	left: -70%;
+	left: -75%;
 	transition: 500ms;
 	margin-top:  15%;   
 	padding: 2% 2% 5% 0%;
@@ -222,9 +222,9 @@
   #sidebar8 { 
 	z-index: 2;
 	position: fixed;
-	width: 61%;	
+	width: 66%;	
 	background-color: #378b29;
-	left: -73%;
+	left: -78%;
 	transition: 500ms;
 	margin-top:  10%;   
 	padding: 2% 2% 5% 0%;
@@ -236,9 +236,9 @@
   #sidebar9 { 
 	z-index: 2;
 	position: fixed;
-	width: 64%;	
+	width: 69%;	
 	background-color: #36802d;
-	left: -76%;
+	left: -81%;
 	transition: 500ms;
 	margin-top:  5%;   
 	padding: 2% 2% 5% 0%;
@@ -250,9 +250,9 @@
   #sidebar10 { 
 	z-index: 2;
 	position: fixed;
-	width: 67%;	
+	width: 72%;	
 	background-color: #234d20;
-	left: -79%;
+	left: -84%;
 	transition: 500ms;
 	margin-top: 0%;   
 	padding: 2% 2% 5% 0%;
