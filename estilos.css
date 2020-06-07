@@ -41,7 +41,7 @@
 		height: 20px;		
 		border-radius: 50%;
 		border: 2px solid yellowgreen;
-		margin-right: 8%;		
+		margin-right: 7%;		
 	}	
 	.menu{
 		width: 100%;
@@ -60,6 +60,7 @@
 	}
 	article{
 		width: 100%;
+		height: 50%;
 		border-bottom: 1px solid #111111;
 		text-align: left;	
 	}
@@ -76,7 +77,8 @@
 	}
 	iframe{
 		width: 100%;
-		height: 80%;
+		height: 100%;
+		
 	}	
   /*sidebar barra lateral primera*/
   #sidebar {
@@ -85,7 +87,7 @@
 	width: 25%;
 	height: 100%;
 	background-color: #6fcb9f;
-	left: -20%;
+	left: -25%;
 	transition: 500ms;	  
 	cursor: pointer;	
   }
@@ -94,7 +96,7 @@
   }
   .boton {
 	position: absolute;
-	left: 80px;
+	left: 90px;
 	cursor: pointer;
 	background-color: #f6f786;
 	color: #111111;  
@@ -138,9 +140,9 @@
   #sidebar2 { 
 	z-index: 2;
 	position: fixed;
-	width: 48%;	
+	width: 53%;	
 	background-color: #52bf90;
-	left: -60%;
+	left: -65%;
 	transition: 500ms;
 	margin-top: 40%;   
 	padding: 2% 2% 5% 0%;
@@ -152,9 +154,9 @@
   #sidebar3 { 
 	z-index: 2;
 	position: fixed;
-	width: 51%;	
+	width: 56%;	
 	background-color: #49ab81;
-	left: -63%;
+	left: -68%;
 	transition: 500ms;
 	margin-top: 35%;   
 	padding: 2% 2% 5% 0%;
@@ -166,9 +168,9 @@
   #sidebar4 { 
 	z-index: 2;
 	position: fixed;
-	width: 54%;	
+	width: 59%;	
 	background-color: #419873;
-	left: -66%;
+	left: -71%;
 	transition: 500ms;
 	margin-top: 30%;   
 	padding: 2% 2% 5% 0%;
@@ -180,9 +182,9 @@
   #sidebar5 { 
 	z-index: 2;
 	position: fixed;
-	width: 57%;	
+	width: 62%;	
 	background-color: #398564;
-	left: -69%;
+	left: -74%;
 	transition: 500ms;
 	margin-top:  25%;   
 	padding: 2% 2% 5% 0%;
@@ -194,9 +196,9 @@
   #sidebar6 { 
 	z-index: 2;
 	position: fixed;
-	width: 60%;	
+	width: 65%;	
 	background-color: #317256;
-	left: -72%;
+	left: -77%;
 	transition: 500ms;
 	margin-top: 20%;   
 	padding: 2% 2% 5% 0%;
@@ -208,9 +210,9 @@
   #sidebar7 { 
 	z-index: 2;
 	position: fixed;
-	width: 63%;	
+	width: 68%;	
 	background-color: #77ab59;
-	left: -75%;
+	left: -80%;
 	transition: 500ms;
 	margin-top:  15%;   
 	padding: 2% 2% 5% 0%;
@@ -222,9 +224,9 @@
   #sidebar8 { 
 	z-index: 2;
 	position: fixed;
-	width: 66%;	
+	width: 71%;	
 	background-color: #378b29;
-	left: -78%;
+	left: -83%;
 	transition: 500ms;
 	margin-top:  10%;   
 	padding: 2% 2% 5% 0%;
@@ -236,9 +238,9 @@
   #sidebar9 { 
 	z-index: 2;
 	position: fixed;
-	width: 69%;	
+	width: 74%;	
 	background-color: #36802d;
-	left: -81%;
+	left: -86%;
 	transition: 500ms;
 	margin-top:  5%;   
 	padding: 2% 2% 5% 0%;
@@ -250,9 +252,9 @@
   #sidebar10 { 
 	z-index: 2;
 	position: fixed;
-	width: 72%;	
+	width: 77%;	
 	background-color: #234d20;
-	left: -84%;
+	left: -89%;
 	transition: 500ms;
 	margin-top: 0%;   
 	padding: 2% 2% 5% 0%;
