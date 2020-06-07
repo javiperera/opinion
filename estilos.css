@@ -41,7 +41,7 @@
 		height: 20px;		
 		border-radius: 50%;
 		border: 2px solid yellowgreen;
-		margin-right: 2%;		
+		margin-right: 1%;		
 	}	
 	.menu{
 		width: 100%;
@@ -60,7 +60,6 @@
 	}
 	article{
 		width: 100%;
-		height: 500px;
 		border-bottom: 1px solid #111111;
 		text-align: left;	
 	}
@@ -77,8 +76,12 @@
 	}
 	iframe{
 		width: 100%;
-		height: 100%;
+		height: 600px;
 		
+	}
+	.audiovisual{
+		width: 100%;
+		height: 500px;
 	}	
   /*sidebar barra lateral primera*/
   #sidebar {
@@ -106,7 +109,7 @@
 	font-size: 13px;  
 	border-radius: 50%;
 	border: 2px solid yellowgreen;
-	margin-top: 43%;
+	margin-top: 35%;
   }  
   .logo {
 	border-radius: 50%;
