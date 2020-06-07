@@ -68,7 +68,7 @@
 		margin: 2% 3% 0% 2%		
 	}
 	.enlaceDocumento{
-		font-size: 40%;
+		font-size: 50%;
 		font-weight: lighter;
 		text-decoration: none;
 		color: #111111;
@@ -93,7 +93,7 @@
   }
   .boton {
 	position: absolute;
-	left: 70px;
+	left: 80px;
 	cursor: pointer;
 	background-color: #f6f786;
 	color: #111111;  
@@ -103,7 +103,7 @@
 	font-size: 13px;  
 	border-radius: 50%;
 	border: 2px solid yellowgreen;
-	margin-top: 58%;
+	margin-top: 50%;
   }  
   .logo {
 	border-radius: 50%;
@@ -118,12 +118,12 @@
 	text-align: center;
 	list-style: none;
 	width: 100%;	
-	font-size: 50%;	
+	font-size: 55%;	
   }  
   /*sidebar barra lateral segunda*/ 
   .tituloBarraLateral {
 	text-align: right;
-	font-size: 50%;
+	font-size: 55%;
 	color: #f6f786;	
   } 
   .enlaceBarra{
