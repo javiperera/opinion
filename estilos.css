@@ -30,33 +30,32 @@
 	}
 	h1{
 		width: 100%;
-		font-size: 40px;		
-		background-color: #ffffba;
-		margin: 20px 0 20px 0;
+		font-size: 90%;		
+		background-color: #ffffba;	
 		font-family: 'Times New Roman', Times, serif;
-		font-weight: lighter;				
+		font-weight: lighter;
+		margin: 2% 0 2% 0;				
 	}	
 	.iconoNav{
-		width: 50px;
-		height: 50px;		
+		width: 20px;
+		height: 20px;		
 		border-radius: 50%;
-		border: 3px solid yellowgreen;
-		margin: 0 20px 0 20px;
-	}
+		border: 2px solid yellowgreen;		
+	}	
 	.menu{
-		width: 100px;
+		width: 100%;
 		text-align: left;
 	}
 	nav{
 		border-top: 1px solid #111111;
 		border-bottom:  1px solid #111111;		
 		background-color: #ffffba;
-		margin-bottom: 20px;
-		padding: 5px;
+		padding: 1% 2% 0% 0%;
+		text-align: right;			
 	}
 	main{
 		width: 100%;
-		padding-top: 170px;						
+		padding-top: 20%;						
 	}
 	article{
 		width: 100%;
@@ -64,92 +63,86 @@
 		text-align: left;	
 	}
 	.fotoAutor{
-		width: 50px;
-		height: 50px;
-		margin: 10px 20px 0 10px;
+		width: 10%;
+		height: 10%;
+		margin: 2% 3% 0% 2%		
 	}
 	.enlaceDocumento{
-		font-size: 25px;
+		font-size: 40%;
 		font-weight: lighter;
 		text-decoration: none;
 		color: #111111;
 	}
 	iframe{
 		width: 100%;
-		height: 500px;
-	}
-	.audiovisual{
-		text-align: center;
-	}
+		height: 30%;
+	}	
   /*sidebar barra lateral primera*/
   #sidebar {
 	position: fixed;
 	z-index: 3;
-	width: 160px;
+	width: 20%;
 	height: 100%;
 	background-color: #6fcb9f;
-	left: -200px;
-	transition: 500ms; 
-	padding: 20px;   
-	cursor: pointer;
+	left: -20%;
+	transition: 500ms;	  
+	cursor: pointer;	
   }
   #sidebar.active {
 	left: 0;
   }
   .boton {
 	position: absolute;
-	left: 200px;
+	left: 65px;
 	cursor: pointer;
 	background-color: #f6f786;
 	color: #111111;  
-	width: 50px;
-	height: 50px;
+	width: 20px;
+	height: 20px;
 	text-align: center;
-	font-size: 35px;  
+	font-size: 13px;  
 	border-radius: 50%;
 	border: 2px solid yellowgreen;
+	margin-top: 53%;
   }  
   .logo {
 	border-radius: 50%;
 	display: block;
-	width: 60%;
-	margin: 50px 0 50px 20px ;
+	width: 45%;
+	padding: 20px;	
   } 
   ul li {
 	padding: 0;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 	color: white;
-	text-align: left;
+	text-align: center;
 	list-style: none;
 	width: 100%;	
-	font-size: 20px;    
-	padding-bottom: 5px;
+	font-size: 50%;	
   }  
   /*sidebar barra lateral segunda*/ 
   .tituloBarraLateral {
 	text-align: right;
-	font-size: 30px;
-	color: #f6f786;
-	padding: 30px 20px 30px 0;
+	font-size: 50%;
+	color: #f6f786;	
   } 
   .enlaceBarra{
 	display: block;
 	text-decoration: none;
-	margin-top: 10px;
-	font-size: 20px;
+	margin-top: 5%;
+	font-size: 50%;
 	color: white;
-	text-align: right;
-	padding: 0 20px 20px 0;
+	text-align: right;	
   }  
   #sidebar2 { 
 	z-index: 2;
 	position: fixed;
-	width: 400px;	
+	width: 43%;	
 	background-color: #52bf90;
-	left: -440px;
+	left: -55%;
 	transition: 500ms;
-	margin-top: 400px;   
-	padding: 10px;
+	margin-top: 40%;   
+	padding: 2% 2% 5% 0%;
 	height: 100%;
   }
   #sidebar2.active{
@@ -158,12 +151,12 @@
   #sidebar3 { 
 	z-index: 2;
 	position: fixed;
-	width: 420px;	
+	width: 46%;	
 	background-color: #49ab81;
-	left: -460px;
+	left: -58%;
 	transition: 500ms;
-	margin-top: 350px;   
-	padding: 10px;
+	margin-top: 35%;   
+	padding: 2% 2% 5% 0%;
 	height: 100%;
   }
   #sidebar3.active{
@@ -172,29 +165,26 @@
   #sidebar4 { 
 	z-index: 2;
 	position: fixed;
-	width: 440px;	
+	width: 49%;	
 	background-color: #419873;
-	left: -480px;
+	left: -61%;
 	transition: 500ms;
-	margin-top:  300px;   
-	padding: 10px;
+	margin-top: 30%;   
+	padding: 2% 2% 5% 0%;
 	height: 100%;
   }
    #sidebar4.active{
 	left: 0;
-  }
-  #sidebar4.active2{
-	left: -520px;
-  }
+  }  
   #sidebar5 { 
 	z-index: 2;
 	position: fixed;
-	width: 460px;	
+	width: 52%;	
 	background-color: #398564;
-	left: -500px;
+	left: -64%;
 	transition: 500ms;
-	margin-top:  250px;   
-	padding: 10px;
+	margin-top:  25%;   
+	padding: 2% 2% 5% 0%;
 	height: 100%;
   }
   #sidebar5.active{
@@ -203,29 +193,26 @@
   #sidebar6 { 
 	z-index: 2;
 	position: fixed;
-	width: 480px;	
+	width: 55%;	
 	background-color: #317256;
-	left: -5200px;
+	left: -67%;
 	transition: 500ms;
-	margin-top:  200px;   
-	padding: 10px;
+	margin-top: 20%;   
+	padding: 2% 2% 5% 0%;
 	height: 100%;
   }
   #sidebar6.active{
 	left: 0;
-  }
-   #sidebar6.active2{
-	left: -520px;
-  }
+  }   
   #sidebar7 { 
 	z-index: 2;
 	position: fixed;
-	width: 500px;	
+	width: 58%;	
 	background-color: #77ab59;
-	left: -540px;
+	left: -70%;
 	transition: 500ms;
-	margin-top:  150px;   
-	padding: 10px;
+	margin-top:  15%;   
+	padding: 2% 2% 5% 0%;
 	height: 100%;
   }
   #sidebar7.active{
@@ -234,12 +221,12 @@
   #sidebar8 { 
 	z-index: 2;
 	position: fixed;
-	width: 520px;	
+	width: 61%;	
 	background-color: #378b29;
-	left: -560px;
+	left: -73%;
 	transition: 500ms;
-	margin-top:  100px;   
-	padding: 10px;
+	margin-top:  10%;   
+	padding: 2% 2% 5% 0%;
 	height: 100%;
   }
   #sidebar8.active{
@@ -248,12 +235,12 @@
   #sidebar9 { 
 	z-index: 2;
 	position: fixed;
-	width: 540px;	
+	width: 64%;	
 	background-color: #36802d;
-	left: -580px;
+	left: -76%;
 	transition: 500ms;
-	margin-top:  50px;   
-	padding: 10px;
+	margin-top:  5%;   
+	padding: 2% 2% 5% 0%;
 	height: 100%;
   }
   #sidebar9.active{
@@ -262,12 +249,12 @@
   #sidebar10 { 
 	z-index: 2;
 	position: fixed;
-	width: 560px;	
+	width: 67%;	
 	background-color: #234d20;
-	left: -600px;
+	left: -79%;
 	transition: 500ms;
-	margin-top: 0;   
-	padding: 10px;
+	margin-top: 0%;   
+	padding: 2% 2% 5% 0%;
 	height: 100%;
   }
   #sidebar10.active{
