@@ -41,7 +41,7 @@
 		height: 20px;		
 		border-radius: 50%;
 		border: 2px solid yellowgreen;
-		margin-right: 7%;		
+		margin-right: 6%;		
 	}	
 	.menu{
 		width: 100%;
@@ -140,9 +140,9 @@
   #sidebar2 { 
 	z-index: 2;
 	position: fixed;
-	width: 53%;	
+	width: 58%;	
 	background-color: #52bf90;
-	left: -65%;
+	left: -70%;
 	transition: 500ms;
 	margin-top: 40%;   
 	padding: 2% 2% 5% 0%;
@@ -154,9 +154,9 @@
   #sidebar3 { 
 	z-index: 2;
 	position: fixed;
-	width: 56%;	
+	width: 61%;	
 	background-color: #49ab81;
-	left: -68%;
+	left: -73%;
 	transition: 500ms;
 	margin-top: 35%;   
 	padding: 2% 2% 5% 0%;
@@ -168,9 +168,9 @@
   #sidebar4 { 
 	z-index: 2;
 	position: fixed;
-	width: 59%;	
+	width: 64%;	
 	background-color: #419873;
-	left: -71%;
+	left: -76%;
 	transition: 500ms;
 	margin-top: 30%;   
 	padding: 2% 2% 5% 0%;
@@ -182,9 +182,9 @@
   #sidebar5 { 
 	z-index: 2;
 	position: fixed;
-	width: 62%;	
+	width: 67%;	
 	background-color: #398564;
-	left: -74%;
+	left: -79%;
 	transition: 500ms;
 	margin-top:  25%;   
 	padding: 2% 2% 5% 0%;
@@ -196,9 +196,9 @@
   #sidebar6 { 
 	z-index: 2;
 	position: fixed;
-	width: 65%;	
+	width: 70%;	
 	background-color: #317256;
-	left: -77%;
+	left: -82%;
 	transition: 500ms;
 	margin-top: 20%;   
 	padding: 2% 2% 5% 0%;
@@ -210,9 +210,9 @@
   #sidebar7 { 
 	z-index: 2;
 	position: fixed;
-	width: 68%;	
+	width: 73%;	
 	background-color: #77ab59;
-	left: -80%;
+	left: -85%;
 	transition: 500ms;
 	margin-top:  15%;   
 	padding: 2% 2% 5% 0%;
@@ -224,9 +224,9 @@
   #sidebar8 { 
 	z-index: 2;
 	position: fixed;
-	width: 71%;	
+	width: 76%;	
 	background-color: #378b29;
-	left: -83%;
+	left: -88%;
 	transition: 500ms;
 	margin-top:  10%;   
 	padding: 2% 2% 5% 0%;
@@ -238,9 +238,9 @@
   #sidebar9 { 
 	z-index: 2;
 	position: fixed;
-	width: 74%;	
+	width: 79%;	
 	background-color: #36802d;
-	left: -86%;
+	left: -91%;
 	transition: 500ms;
 	margin-top:  5%;   
 	padding: 2% 2% 5% 0%;
@@ -252,9 +252,9 @@
   #sidebar10 { 
 	z-index: 2;
 	position: fixed;
-	width: 77%;	
+	width: 82%;	
 	background-color: #234d20;
-	left: -89%;
+	left: -94%;
 	transition: 500ms;
 	margin-top: 0%;   
 	padding: 2% 2% 5% 0%;
