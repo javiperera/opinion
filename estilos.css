@@ -55,7 +55,7 @@
 	}
 	main{
 		width: 100%;
-		padding-top: 25%;						
+		padding-top: 30%;						
 	}
 	article{
 		width: 100%;
@@ -93,7 +93,7 @@
   }
   .boton {
 	position: absolute;
-	left: 65px;
+	left: 70px;
 	cursor: pointer;
 	background-color: #f6f786;
 	color: #111111;  
@@ -103,7 +103,7 @@
 	font-size: 13px;  
 	border-radius: 50%;
 	border: 2px solid yellowgreen;
-	margin-top: 63%;
+	margin-top: 58%;
   }  
   .logo {
 	border-radius: 50%;
