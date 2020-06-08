@@ -34,7 +34,7 @@
 		background-color: #ffffba;	
 		font-family: 'Times New Roman', Times, serif;
 		font-weight: lighter;
-		margin: 2% 0 2% 0;				
+		margin: 2% 0 2% 0;					
 	}	
 	.iconoNav{
 		width: 20px;
@@ -63,8 +63,7 @@
 		padding-top: 17%;						
 	}
 	article{
-		width: 100%;
-		border-bottom: 1px solid #111111;
+		width: 100%;		
 		text-align: left;	
 	}
 	.fotoAutor{
@@ -78,6 +77,9 @@
 		text-decoration: none;
 		color: #111111;
 	}
+	h2{
+		border: 1px solid #111111;
+	}	
 	iframe{
 		width: 100%;
 		height: 400px;		
