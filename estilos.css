@@ -387,7 +387,7 @@
   #sidebar {
 	position: fixed;
 	z-index: 3;
-	width: 12%;
+	width: 14%;
 	height: 100%;
 	background-color: #6fcb9f;
 	left: -20%;
@@ -399,7 +399,7 @@
   }
   .boton {
 	position: absolute;
-	left: 200px;
+	left: 130px;
 	cursor: pointer;
 	background-color: #f6f786;
 	color: #111111;  
@@ -414,8 +414,8 @@
   .logo {
 	border-radius: 50%;
 	display: block;
-	width: 20%;
-	padding: 10px;	
+	width: 40%;
+	margin-left: 8px;	
   } 
   ul li {
 	padding: 0;
@@ -430,12 +430,12 @@
   .tituloBarraLateral {
 	text-align: right;
 	font-size: 80%;
-	color: #f6f786;	
+	color: #f6f786;		
   } 
   .enlaceBarra{
 	display: block;
 	text-decoration: none;
-	margin-top: 5%;
+	margin-top: 2%;
 	font-size: 75%;
 	color: white;
 	text-align: right;	
@@ -443,12 +443,12 @@
   #sidebar2 { 
 	z-index: 2;
 	position: fixed;
-	width: 13%;	
+	width: 32%;	
 	background-color: #52bf90;
-	left: -72%;
+	left: -40%;
 	transition: 500ms;
-	margin-top: 16%;   
-	padding: 2% 2% 5% 0%;
+	margin-top: 24%;   
+	padding: 0.5% 2% 5% 0%;
 	height: 100%;
   }
   #sidebar2.active{
@@ -457,12 +457,12 @@
   #sidebar3 { 
 	z-index: 2;
 	position: fixed;
-	width: 63%;	
+	width: 34%;	
 	background-color: #49ab81;
-	left: -75%;
+	left: -42%;
 	transition: 500ms;
-	margin-top: 35%;   
-	padding: 2% 2% 5% 0%;
+	margin-top: 21%;   
+	padding: 0.5% 2% 5% 0%;
 	height: 100%;
   }
   #sidebar3.active{
@@ -471,12 +471,12 @@
   #sidebar4 { 
 	z-index: 2;
 	position: fixed;
-	width: 66%;	
+	width: 36%;	
 	background-color: #419873;
-	left: -78%;
+	left: -44%;
 	transition: 500ms;
-	margin-top: 30%;   
-	padding: 2% 2% 5% 0%;
+	margin-top: 18%;   
+	padding: 0.5% 2% 5% 0%;
 	height: 100%;
   }
    #sidebar4.active{
@@ -485,12 +485,12 @@
   #sidebar5 { 
 	z-index: 2;
 	position: fixed;
-	width: 69%;	
+	width: 38%;	
 	background-color: #398564;
-	left: -81%;
+	left: -46%;
 	transition: 500ms;
-	margin-top:  25%;   
-	padding: 2% 2% 5% 0%;
+	margin-top:  15%;   
+	padding: 0.5% 2% 5% 0%;
 	height: 100%;
   }
   #sidebar5.active{
@@ -499,12 +499,12 @@
   #sidebar6 { 
 	z-index: 2;
 	position: fixed;
-	width: 72%;	
+	width: 40%;	
 	background-color: #317256;
-	left: -84%;
+	left: -48%;
 	transition: 500ms;
-	margin-top: 20%;   
-	padding: 2% 2% 5% 0%;
+	margin-top: 12%;   
+	padding: 0.5% 2% 5% 0%;
 	height: 100%;
   }
   #sidebar6.active{
@@ -513,12 +513,12 @@
   #sidebar7 { 
 	z-index: 2;
 	position: fixed;
-	width: 75%;	
+	width: 42%;	
 	background-color: #77ab59;
-	left: -87%;
+	left: -50%;
 	transition: 500ms;
-	margin-top:  15%;   
-	padding: 2% 2% 5% 0%;
+	margin-top:  9%;   
+	padding: 0.5% 2% 5% 0%;
 	height: 100%;
   }
   #sidebar7.active{
@@ -527,12 +527,12 @@
   #sidebar8 { 
 	z-index: 2;
 	position: fixed;
-	width: 78%;	
+	width: 44%;	
 	background-color: #378b29;
-	left: -90%;
+	left: -52%;
 	transition: 500ms;
-	margin-top:  10%;   
-	padding: 2% 2% 5% 0%;
+	margin-top:  6%;   
+	padding: 0.5% 2% 5% 0%;
 	height: 100%;
   }
   #sidebar8.active{
@@ -541,12 +541,12 @@
   #sidebar9 { 
 	z-index: 2;
 	position: fixed;
-	width: 81%;	
+	width: 46%;	
 	background-color: #36802d;
-	left: -93%;
+	left: -54%;
 	transition: 500ms;
-	margin-top:  5%;   
-	padding: 2% 2% 5% 0%;
+	margin-top:  3%;   
+	padding: 0.5% 2% 5% 0%;
 	height: 100%;
   }
   #sidebar9.active{
@@ -555,12 +555,12 @@
   #sidebar10 { 
 	z-index: 2;
 	position: fixed;
-	width: 84%;	
+	width: 48%;	
 	background-color: #234d20;
-	left: -96%;
+	left: -56%;
 	transition: 500ms;
 	margin-top: 0%;   
-	padding: 2% 2% 5% 0%;
+	padding: 0.5% 2% 5% 0%;
 	height: 100%;
   }
   #sidebar10.active{
