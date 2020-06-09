@@ -386,7 +386,7 @@ iframe{
   }
   .boton {
 	position: absolute;
-	left: 490px;
+	left: 480px;
 	cursor: pointer;
 	background-color: #f6f786;
 	color: #111111;  
@@ -396,7 +396,7 @@ iframe{
 	font-size: 23px;  
 	border-radius: 50%;
 	border: 2px solid yellowgreen;
-	margin-top: 26.5%;
+	margin-top: 26.8%;
 	padding-top: 1%;
   }  
   .logo {
