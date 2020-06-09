@@ -40,7 +40,7 @@
 		height: 20px;		
 		border-radius: 50%;
 		border: 2px solid yellowgreen;
-		margin: 0.5% 0.5% 0% 0%;		
+		margin: 0.5% 0.3% 0% 0%;		
 	}
 	.iconoComentarios{
 		width: 18%;
@@ -78,7 +78,7 @@
 		float: right;			
 		padding-right: 65%;
 		font-size: 50%;
-		margin-top: 2%;		
+		margin-top: 3%;		
 	}	
 	h2{
 		border-bottom: 1px solid #111111;
@@ -93,11 +93,11 @@
 	}
 	footer{
 		width: 100%;
-		height: 10%;
+		height: 8%;
 		text-align: center;
 		background-color:yellowgreen;
 		padding: 1%;
-		font-size: 70%;
+		font-size: 60%;
 	}
 
   /*sidebar barra lateral primera*/
@@ -126,7 +126,7 @@
 	font-size: 13px;  
 	border-radius: 50%;
 	border: 2px solid yellowgreen;
-	margin-top: 37%;
+	margin-top: 39%;
 	padding-top: 0.5%;
   }  
   .logo {
@@ -323,11 +323,11 @@
 		margin: 2% 0 2% 0;					
 	}	
 	.iconoNav{
-		width: 40px;
-		height: 40px;		
+		width: 30px;
+		height: 30px;		
 		border-radius: 50%;
 		border: 2px solid yellowgreen;
-		margin: 0.5% 0.5% 0% 0%;		
+		margin: 0.3% 0.3% 0% 0%;		
 	}
 	.iconoComentarios{
 		width: 18%;
@@ -355,16 +355,16 @@
 		text-align: left;	
 	}
 	.fotoAutor{	
-		width: 20px;
-		height: 20px;		
+		width: 30px;
+		height: 30px;		
 		border-radius: 50%;
 		border: 2px solid yellowgreen;
 		margin: 1% 0% 0% 1%;				
 	}
 	.enlaceDocumento{
 		float: right;			
-		padding-right: 65%;
-		font-size: 50%;
+		padding-right: 40%;
+		font-size: 60%;
 		margin-top: 2%;		
 	}	
 	h2{
@@ -372,7 +372,7 @@
 	}	
 	iframe{
 		width: 100%;
-		height: 400px;		
+		height: 300px;		
 	}
 	.disqus_thread{
 		width: 100%;
@@ -384,7 +384,7 @@
 		text-align: center;
 		background-color:yellowgreen;
 		padding: 1%;
-		font-size: 70%;
+		font-size: 100%;
 	}
 
   /*sidebar barra lateral primera*/
@@ -403,7 +403,7 @@
   }
   .boton {
 	position: absolute;
-	left: 95px;
+	left: 200px;
 	cursor: pointer;
 	background-color: #f6f786;
 	color: #111111;  
