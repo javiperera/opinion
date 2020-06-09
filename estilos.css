@@ -603,7 +603,7 @@ nav{
 	border-bottom: 1px solid #111111;		
 	background-color: #ffffba;
 	margin-bottom: 1%;
-	padding-left: 8%;		
+	padding-left: 10%;		
 }
 .iconoNav{
 	width: 40px;
@@ -675,7 +675,7 @@ footer{
   }
   .boton {
 	position: absolute;
-	left: 202%;
+	left: 212%;
 	cursor: pointer;
 	background-color: #f6f786;
 	color: #111111;  
@@ -687,7 +687,10 @@ footer{
 	border: 2px solid yellowgreen;
 	margin-top: 53%;
 	padding-top: 1%;
-  }  
+  } 
+  .boton:hover{
+	border: 2px solid blue;
+  } 
   .logo {
 	border-radius: 50%;
 	display: block;
@@ -701,7 +704,10 @@ footer{
 	list-style: none;
 	width: 100%;	
 	font-size: 100%;	
-  }  
+  } 
+  ul li:hover{
+	  background-color: blue;
+  } 
   /*sidebar barra lateral segunda*/ 
   .tituloBarraLateral {
 	text-align: right;
@@ -716,6 +722,9 @@ footer{
 	color: white;
 	text-align: right;
 	margin-bottom: 3%;	
+  }
+  .enlaceBarra:hover{
+	background-color: blue;
   }  
   #sidebar2 { 
 	z-index: 2;
