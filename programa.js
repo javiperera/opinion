@@ -49,3 +49,9 @@ const recursos = document.querySelector(".recursos");
 recursos.addEventListener("click", function(){
 document.getElementById("sidebar9").classList.toggle("active");
 })
+
+const sostenibilidad = document.querySelector(".sostenibilidad");
+
+sostenibilidad.addEventListener("click", function(){
+document.getElementById("sidebar10").classList.toggle("active");
+})
