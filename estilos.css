@@ -33,7 +33,7 @@
 		background-color: #ffffba;	
 		font-family: 'Times New Roman', Times, serif;
 		font-weight: lighter;
-		margin: 2% 0 2% 0;					
+		margin: 4% 0 2% 0;					
 	}	
 	.iconoNav{
 		width: 20px;
@@ -52,7 +52,7 @@
 		border-top: 1px solid #111111;
 		border-bottom:  1px solid #111111;		
 		background-color: #ffffba;
-		padding: 1% 2% 0% 0%;
+		padding: 1% 3% 0% 0%;
 		text-align: right;			
 	}
 	main{
@@ -72,7 +72,7 @@
 	}
 	.enlaceDocumento{
 		float: right;			
-		padding-right: 65%;
+		padding-right: 60%;
 		font-size: 50%;
 		margin-top: 3%;		
 	}	
@@ -89,7 +89,7 @@
 	}
 	footer{
 		width: 100%;
-		height: 8%;
+		height: 10%;
 		text-align: center;
 		background-color:yellowgreen;
 		padding: 1%;
