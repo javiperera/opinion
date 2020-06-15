@@ -73,7 +73,7 @@
 	.enlaceOpinion{
 		float: right;			
 		padding-right: 60%;
-		font-size: 50%;
+		font-size: 55%;
 		margin-top: 3%;		
 	}	
 	h2{
@@ -358,7 +358,7 @@
 	.enlaceOpinion{
 		float: right;			
 		padding-right: 70%;
-		font-size: 70%;			
+		font-size: 75%;			
 	}	
 	h2{
 		border-bottom: 1px solid #111111;
@@ -656,7 +656,7 @@ h2{
 .enlaceOpinion{
 	float: right;			
 	padding-right: 83%;
-	font-size: 80%;
+	font-size: 85%;
 	margin-top: 2%;		
 }
 iframe{
