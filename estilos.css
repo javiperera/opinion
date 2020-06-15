@@ -70,7 +70,7 @@
 		border: 2px solid yellowgreen;
 		margin: 1% 0% 0% 1%;				
 	}
-	.enlaceDocumento{
+	.enlaceOpinion{
 		float: right;			
 		padding-right: 60%;
 		font-size: 50%;
@@ -82,7 +82,7 @@
 	iframe{
 		width: 100%;
 		height: 300px;		
-	}
+	}	
 	h3{
 		width: 100%;
 		padding: 3% 0% 0% 1%;
@@ -355,7 +355,7 @@
 		border-radius: 50%;
 		border: 2px solid yellowgreen;					
 	}
-	.enlaceDocumento{
+	.enlaceOpinion{
 		float: right;			
 		padding-right: 70%;
 		font-size: 70%;			
@@ -653,7 +653,7 @@ h2{
 	border: 2px solid yellowgreen;
 	margin: 1% 0% 0% 1%;  					
 }
-.enlaceDocumento{
+.enlaceOpinion{
 	float: right;			
 	padding-right: 83%;
 	font-size: 80%;
