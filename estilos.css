@@ -131,7 +131,7 @@
 	padding-top: 0.5%;
   }  
   .logo {
-	border-radius: 20%;
+	border-radius: 50%;
 	display: block;
 	width: 45%;
 	padding: 20px;	
@@ -414,7 +414,7 @@
 	margin-top: 53%;
   }  
   .logo {
-	border-radius: 20%;
+	border-radius: 50%;
 	display: block;
 	width: 40%;
 	padding: 5% 5% 5% 5%;
@@ -655,9 +655,9 @@ h2{
 }
 .enlaceOpinion{
 	float: right;			
-	padding-right: 83%;
+	padding-right: 73%;
 	font-size: 85%;
-	margin-top: 2%;		
+	margin-top: 3%;		
 }
 iframe{
 	width: 100%;
@@ -701,17 +701,18 @@ footer{
 	font-size: 160%;  
 	border-radius: 50%;
 	border: 2px solid yellowgreen;
-	margin-top: 53%;
+	margin-top: 52%;
 	padding-top: 1%;
   } 
   .boton:hover{
 	border: 2px solid blue;
   } 
   .logo {
-	border-radius: 20%;
+	border-radius: 50%;
 	display: block;
-	width: 45%;
-	margin: 10% 0% 10% 25%;	
+	width: 70%;
+	height: 20%;
+	margin: 10% 0% 10% 15%;	
   } 
   ul li {	
 	margin-bottom: 10%;
