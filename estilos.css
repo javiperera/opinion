@@ -64,11 +64,11 @@
 		text-align: left;	
 	}
 	.fotoAutor{	
-		width: 20px;
-		height: 20px;		
+		width: 30px;
+		height: 30px;		
 		border-radius: 50%;
 		border: 2px solid yellowgreen;
-		margin: 1% 0% 0% 1%;				
+		margin: 1% 0% 0% 1%;							
 	}
 	.enlaceOpinion{
 		float: right;			
@@ -647,8 +647,8 @@ h2{
 	border-bottom: 1px solid #111111;
 }
 .fotoAutor{	
-	width: 40px;
-	height: 40px;		
+	width: 50px;
+	height: 50px;		
 	border-radius: 50%;
 	border: 2px solid yellowgreen;
 	margin: 1% 0% 0% 1%;  					
